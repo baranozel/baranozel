@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İletişim | NOVA FITNESS Eskişehir</title>
+  <meta name="description" content="NOVA FITNESS iletişim bilgileri: Hoşnudiye Mah., Eskişehir. Tel: +90 222 555 24 24. Pazartesi – Cumartesi 07:00 – 23:00.">
+  <meta name="theme-color" content="#0e0f10">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="logo" aria-label="NOVA FITNESS ana sayfa">NOVA <span>FITNESS</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menüyü aç"><span></span><span></span><span></span></button>
+    <nav class="nav-links" id="nav-links" aria-label="Ana menü">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="hakkimizda.html">Hakkımızda</a>
+      <a href="index.html#calisma-alanlari">Çalışma Alanları</a>
+      <a href="iletisim.html" aria-current="page">İletişim</a>
+      <a href="index.html#uyelik" class="btn btn--lime">Üyelik Bilgisi</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <img class="page-hero__img" src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=2000&q=80" alt="">
+    <div class="container">
+      <span class="eyebrow">İletişim</span>
+      <h1>Bize Ulaşın</h1>
+      <p>Üyelik, programlar ve salonumuz hakkında sorularını bekliyoruz.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="reveal">
+          <ul class="info-list">
+            <li><span class="k">Adres</span><span class="v">Hoşnudiye Mah., Eskişehir</span></li>
+            <li><span class="k">Telefon</span><a class="v" href="tel:+902225552424">+90 222 555 24 24</a></li>
+            <li><span class="k">WhatsApp</span><a class="v" href="https://wa.me/902225552424" target="_blank" rel="noopener">+90 222 555 24 24</a></li>
+            <li><span class="k">Çalışma Saatleri</span><span class="v">Pazartesi – Cumartesi<br>07:00 – 23:00</span></li>
+          </ul>
+          <a class="btn btn--lime btn--lg contact-wa" href="https://wa.me/902225552424?text=Merhaba%2C%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan Yazın</a>
+        </div>
+
+        <form class="form reveal" id="contact-form" novalidate>
+          <h2>Mesaj Gönderin</h2>
+          <div class="field">
+            <label for="ad">Ad Soyad</label>
+            <input type="text" id="ad" name="ad" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="telefon">Telefon</label>
+            <input type="tel" id="telefon" name="telefon" autocomplete="tel" inputmode="tel" required>
+          </div>
+          <div class="field">
+            <label for="mesaj">Mesaj</label>
+            <textarea id="mesaj" name="mesaj" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--lime">Gönder</button>
+          <p class="form-note" id="form-note" role="status" tabindex="-1" hidden>Mesajınız için teşekkürler.</p>
+        </form>
+      </div>
+
+      <div class="map reveal">
+        <iframe title="NOVA FITNESS konumu — Hoşnudiye, Eskişehir" src="https://www.google.com/maps?q=Ho%C5%9Fnudiye+Mahallesi,+Eski%C5%9Fehir&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">NOVA <span>FITNESS</span></a>
+        <p>Gücünü keşfet. Kendini aş.</p>
+      </div>
+      <div>
+        <h4>Menü</h4>
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="index.html#calisma-alanlari">Çalışma Alanları</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a href="index.html#uyelik">Üyelik Bilgisi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>İletişim</h4>
+        <ul>
+          <li>Hoşnudiye Mah., Eskişehir</li>
+          <li><a href="tel:+902225552424">+90 222 555 24 24</a></li>
+          <li><a href="https://wa.me/902225552424" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Çalışma Saatleri</h4>
+        <ul>
+          <li>Pazartesi – Cumartesi</li>
+          <li>07:00 – 23:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 NOVA FITNESS. Tüm hakları saklıdır.</span>
+      <span>Eskişehir</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/902225552424" target="_blank" rel="noopener" aria-label="WhatsApp ile yazın">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 .1 5.3.1 11.9c0 2.1.6 4.1 1.6 5.9L0 24l6.4-1.7a11.9 11.9 0 0 0 5.6 1.4c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.3z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
